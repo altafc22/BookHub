@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/grey"
+            android:textSize="13sp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:minLines="1"
+            android:singleLine="false" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:id="@+id/tvAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/greyLight"
+            android:ellipsize="end"
+            android:textSize="9sp"
+            android:layout_marginHorizontal="10dp"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

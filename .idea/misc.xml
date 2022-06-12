@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/debug/res/menu/bottom_nav.xml" value="0.28229166666666666" />
+        <entry key="app/src/debug/res/menu/menu_bookmark.xml" value="0.1390625" />
+        <entry key="app/src/debug/res/menu/menu_search.xml" value="0.1390625" />
+        <entry key="app/src/debug/res/menu/menu_update.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bookhub_text.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/chip_radio_button.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/clickable_button.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/clickable_chip.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/home.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/logo.xml" value="0.2015" />
+        <entry key="app/src/main/res/drawable/nav_home.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/nav_icon_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/nav_info.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/nav_popular.xml" value="0.149" />
+        <entry key="app/src/main/res/drawable/nav_search.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/nav_wishlist.xml" value="0.149" />
+        <entry key="app/src/main/res/drawable/placeholder.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ripple_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_chip_checked.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/rounded_chip_selected.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/rounded_chip_uncheked.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_stroke.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/splash_background.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/transparent_gradient.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/transparent_gradient_white.xml" value="0.1035" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.26151560178306094" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_more.xml" value="0.17916666666666667" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.31261101243339257" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_bookmark.xml" value="0.2756561279296875" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18493499755859377" />
+        <entry key="app/src/main/res/layout/fragment_popular.xml" value="0.1390625" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.23108825683593753" />
+        <entry key="app/src/main/res/layout/item_book_card.xml" value="0.13802083333333334" />
+        <entry key="app/src/main/res/layout/item_book_card_wide.xml" value="0.38955230712890626" />
+        <entry key="app/src/main/res/layout/item_bookmark_card.xml" value="0.1390625" />
+        <entry key="app/src/main/res/layout/item_category_chips.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_home.xml" value="0.19552238805970149" />
+        <entry key="app/src/main/res/layout/item_home_book_card.xml" value="0.20380434782608695" />
+        <entry key="app/src/main/res/layout/item_home_card.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_home_card_wide.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/item_home_category.xml" value="0.2691292875989446" />
+        <entry key="app/src/main/res/layout/itrem_category_chip.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/shimmer_book_home.xml" value="0.2959691316178701" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_bookmark.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_search.xml" value="0.28229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="3dp"
+    android:paddingVertical="3dp">
+
+    <RadioButton
+        android:visibility="gone"
+        android:id="@+id/rbCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@color/colorTransparent"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="10dp"
+        android:background="@drawable/chip_radio_button"
+        android:text="radio button"
+        android:textColor="@color/white"
+        android:checked="true"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@color/colorTransparent"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        android:background="@drawable/clickable_chip"
+        android:text="chip text"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
