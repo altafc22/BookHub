@@ -23,7 +23,7 @@ Created BookHub demo project for Kortext
 - Swipe refresh layout (used in detail screen)
 - Flexbox layout
 
-## Screenshots
+## APK
 - Download APK : <a href="https://github.com/altafc22/BookHub/raw/master/apk/app-debug.apk">BookHub</a>
 
 
