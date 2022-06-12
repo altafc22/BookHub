@@ -50,6 +50,9 @@
         <entry key="app/src/main/res/layout/item_home_card_wide.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/item_home_category.xml" value="0.2691292875989446" />
         <entry key="app/src/main/res/layout/itrem_category_chip.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/layout_loading.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/layout_no_data.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/layout_no_internet.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/shimmer_book_home.xml" value="0.2959691316178701" />
         <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/menu/menu_bookmark.xml" value="0.28229166666666666" />

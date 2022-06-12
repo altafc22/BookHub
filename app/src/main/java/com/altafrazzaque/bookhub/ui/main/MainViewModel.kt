@@ -35,8 +35,8 @@ class MainViewModel : BaseViewModel {
     private val _isLoading = MutableLiveData<Boolean?>()
     val isLoading: LiveData<Boolean?> = _isLoading
 
-    private val _errorMessage = MutableLiveData<String?>()
-    val errorMessage: LiveData<String?> = _errorMessage
+    private val _errorMessage = MutableLiveData<String>()
+    val errorMessage: LiveData<String> = _errorMessage
 
     private val _categoryChips = MutableLiveData<List<Category>>()
     val categoryChips : LiveData<List<Category>> = _categoryChips
@@ -72,6 +72,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     t.let {
                         _latestBooks.postValue(it)
                     }
@@ -90,6 +91,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     Timber.i("data received ${t.items.size}")
                     t.let {
                         _latestBooks.postValue(it)
@@ -114,6 +116,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     t.let {
                         _travelBooks.postValue(it)
                     }
@@ -133,6 +136,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     t.let {
                         _businessBooks.postValue(it)
                     }
@@ -152,6 +156,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     t.let {
                         _educationBooks.postValue(it)
                     }
@@ -171,6 +176,7 @@ class MainViewModel : BaseViewModel {
             .subscribeWith(object : DisposableSingleObserver<Books>() {
                 override fun onSuccess(t: Books) {
                     _isLoading.postValue(false)
+                    _errorMessage.postValue("")
                     t.let {
                         _comicBooks.postValue(it)
                     }

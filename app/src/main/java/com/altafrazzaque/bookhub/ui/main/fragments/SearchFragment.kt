@@ -48,6 +48,14 @@ class SearchFragment : BaseFragment(), OnBookClickListener {
     }
 
     override fun setObservers() {
+        viewModel.isLoading.observe(viewLifecycleOwner){
+            val loading = it!!
+            if(loading)
+                showLoadingView(true)
+            else
+                showLoadingView(false)
+        }
+
         viewModel.latestBooks.observe(viewLifecycleOwner) {
             val result = it!!.items
             Timber.i("LatestBOoks: ${result.size}")
@@ -139,4 +147,10 @@ class SearchFragment : BaseFragment(), OnBookClickListener {
         }
     }
 
+    private fun showLoadingView(visible:Boolean){
+        if(visible)
+            binding.loadingLayout.visibility = View.VISIBLE
+        else
+            binding.loadingLayout.visibility = View.GONE
+    }
 }

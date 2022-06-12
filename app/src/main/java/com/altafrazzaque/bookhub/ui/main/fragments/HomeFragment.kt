@@ -55,11 +55,27 @@ class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener, OnChi
         binding.refreshLayout.setOnRefreshListener(this)
         binding.rvCategory.adapter = adapter
         binding.rvCategoryChips.adapter = chipsAdapter
+
+        val btnRetry = binding.noInternetView.findViewById<View>(R.id.btnRetry)
+        btnRetry.setOnClickListener {
+            loadData()
+        }
     }
 
     override fun setObservers() {
         viewModel.isLoading.observe(viewLifecycleOwner) {
             binding.refreshLayout.isRefreshing = it!!
+            if(it)
+                showLoadingView(true)
+            else
+                showLoadingView(false)
+        }
+
+        viewModel.errorMessage.observe(viewLifecycleOwner) {
+            if(it!="")
+                showErrorView(true)
+            else
+                showErrorView(false)
         }
 
         viewModel.categoryChips.observe(viewLifecycleOwner) {
@@ -113,5 +129,19 @@ class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener, OnChi
        /* val intent = Intent(requireContext(),SearchActivity::class.java)
         intent.putExtra(Parcel.CATEGORY,item)
         requireContext().startActivity(intent)*/
+    }
+
+    private fun showErrorView(visible:Boolean){
+        if(visible)
+            binding.noInternetView.visibility = View.VISIBLE
+        else
+            binding.noInternetView.visibility = View.GONE
+    }
+
+    private fun showLoadingView(visible:Boolean){
+        if(visible)
+            binding.loadingLayout.visibility = View.VISIBLE
+        else
+            binding.loadingLayout.visibility = View.GONE
     }
 }

@@ -53,6 +53,10 @@ class BookmarkFragment : BaseFragment(), OnBookmarkClickListener {
         viewModel.getAllBookmarks().observe(viewLifecycleOwner) { books ->
             Timber.i("BOOKMARKS ${books.size}")
             adapter.addData(books)
+            if(books.isNotEmpty())
+                showNoDataView(false)
+            else
+                showNoDataView(true)
         }
     }
 
@@ -62,5 +66,11 @@ class BookmarkFragment : BaseFragment(), OnBookmarkClickListener {
         book.let { viewModel.deleteBook(it) }
     }
 
+    private fun showNoDataView(visible:Boolean){
+        if(visible)
+            binding.noDataLayout.visibility = View.VISIBLE
+        else
+            binding.noDataLayout.visibility = View.GONE
+    }
 
 }
