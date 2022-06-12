@@ -28,19 +28,6 @@ Created BookHub demo project for Kortext
 
 
 ## Screenshots
-
-<html>
-  <tr>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/1.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/2.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/3.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/4.png" width="150" height="300"/> </td>
-  </tr>
-    <tr>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/5.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/6.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/7.png" width="150" height="300"/> </td>
-    <td> <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/8.png" width="150" height="300"/> </td>
-  </tr>
-</html>
+| <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/1.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/2.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/3.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/4.png" width="150" height="300"/> |
+| <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/5.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/6.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/7.png" width="150" height="300"/> | <img src="https://github.com/altafc22/BookHub/blob/master/screenshots/8.png" width="150" height="300"/> |
 
