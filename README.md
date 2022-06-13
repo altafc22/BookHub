@@ -20,8 +20,8 @@ Created BookHub demo project for Kortext
 - Timber for logging
 - Room Database
 - Glide 
-- Swipe refresh layout (used in detail screen)
-- Flexbox layout
+- Swipe refresh layout
+- Flexbox layout (used in detail screen)
 
 ## APK
 - Download APK : <a href="https://github.com/altafc22/BookHub/raw/master/apk/app-debug.apk">BookHub</a>
