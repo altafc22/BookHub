@@ -1,7 +1,7 @@
 
 # BookHub
 
-Created BookHub demo project for Kortext
+Created BookHub demo project using google books API
 
 ## Features
 - Native Splash Screen
